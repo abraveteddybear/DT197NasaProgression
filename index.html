@@ -1,14 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 
+    <script src="jquery.js"> </script>
+    <script>
+      $(function includeIntro(){
+        $("#includedContent").load("intro.html", function() {
+          alert("Load Was Preformed");
+        })
+      });
+    </script>
+
 <head>
+
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Grayscale - Start Bootstrap Theme</title>
+  <title>Nasa's Mission</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -66,6 +76,7 @@
 
   <!-- Introduction Section -->
   <section id="introduction" class="about-section text-lg-left">
+    
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
@@ -110,6 +121,17 @@
       </div>
       <img src="img/moon.png" class="img-fluid" alt="">
     </div>
+
+
+
+    <!-- Work in this include -->
+    <div id="includedContent"></div> 
+    <script>
+      
+    </script>
+
+
+
   </section>
 
   <!-- Projects Section -->
@@ -123,11 +145,35 @@
           <div class="featured-text text-center text-lg-left">
             <h4>NASA in the 1960s:<br> The Golden Era</h4>
             <p class="text-black-65 mb-0"> <!-- Optional Text Here --></p>
+            <p class="text-black-65 mb-0">
+                Okay, so a quick run down <p>and </p> Mean that there is a new paragraph. If you want to write anything, this is a means
+                to do so. HTML will not recognize that you are putting 
+                an indent in the text but they will recognize <br> Which means that there is a break in the text. If you want to embed anything,
+                google it and you'll be able to find a way.
+                <p> 
+                    But to demonstarte, this is a paraagraph inside of a paragraph. This 
+                </p>
+            </p>
+            <p class="text-black-65 mb-0">
+                <!--
+                  Put all your text here in this paragraph! 
+                  <br> is a break in the text
+                  <b>Any text inside of these will be bolded </b>
+                  If your text is winthin the < !-- These guys -- >, it is a comment in HTML and will not show up 
+                -->
+                Put your text here!
+              </p>
+           
           </div>
         </div>
       </div>
       <!-- /Title Card -->
-      <!--Moon Rover-->
+
+
+
+
+
+      <!--Moon Rover Object Guy!!!!!-->
       <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div class="col-lg-6">
             <!--<img class="img-fluid" src="img/demo-image-01.jpg" alt=""> -->
@@ -149,14 +195,20 @@
             </div>
           </div>
         </div>
-        <!--/Moon Rover-->
+        <!--End of the Moon Rover Object-->
 
+	<p class="text-black-65 mb-0"> <!--Okay, so this is a commment-->
+  
+      If you want, you can put text in this one too! This is below the moonlanding object
 
-
+  </p>
+          
 
 
     </div>
   </section>
+
+
  <!-- 1970s - 1980s-->
   <section id="ERA2" class="projects-section bg-light">
       <!-- Project One Row -->
