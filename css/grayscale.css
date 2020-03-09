@@ -37,6 +37,8 @@
   background-color: transparent;
 }
 
+
+
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 0;
@@ -60,6 +62,7 @@
   #mainNav .nav-link:active {
     color: white;
   }
+
   #mainNav.navbar-shrink {
     background-color: #fff;
   }
@@ -82,6 +85,24 @@
     outline: none;
     border-bottom: 0.25rem solid #64a19d;
   }
+  /* #mainNav .sub-menu{
+    display: block;
+    list-style-type: none;
+    position: absolute;
+    border: 10px solid white;
+    margin-top: 30px;
+    margin-left: -10px;
+    text-align: left;
+    box-shadow: 1px 1px 1px grey;
+    
+  }
+  #mainNax .sub-menu>li{
+    padding: 10 px;
+    color: white;
+    background: #37f;
+    font-size: 20px;
+  } */
+
 }
 
 .masthead {
@@ -204,7 +225,7 @@
 
 .signup-section {
   padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/PIA13128_thumb.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/here.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -269,6 +290,7 @@
 body {
   font-family: 'Nunito';
   letter-spacing: 0.0625em;
+  
 }
 
 a {

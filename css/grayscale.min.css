@@ -71,6 +71,9 @@
             border-bottom:.25rem solid #64a19d
         }
     }
+
+
+
     .masthead{
          position:relative;
          width:100%;
@@ -192,6 +195,7 @@
         body{
                 font-family:Nunito;
                 letter-spacing:.0625em
+                
         }
         a{color:#64a19d}
         a:focus,a:hover{text-decoration:none;color:#3c6360}
