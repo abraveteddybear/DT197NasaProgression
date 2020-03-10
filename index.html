@@ -232,11 +232,13 @@ Feel free to change the height and width values or other styling below: -->
   <section id="ERA2" class="projects-section bg-light">
       <!-- Project One Row -->
       <style>
-        div.left { text-align: left; text-indent: 40px;}
+        .left { text-align: left; text-indent: 40px; font-size: 20px;}
+        .leftLast { text-align: left; text-indent: 40px; font-size: 20px; margin-bottom: 100px;}
+        .buffer {margin-bottom: 15px; margin-top: 15px;}
       </style>
     <div class="container"> <!-- End container-->
         <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-            <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="img/5main_columbia1979.jpg" alt=""></div>
+            <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="img/5main_columbia1979.jpg" alt="" style="height: 500px; width: 800px;"></div>
             <div class="col-xl-4 col-lg-5">
               <div class="featured-text text-center text-lg-left">
                 <h4>NASA in 1970-1980:<br> Breaking the Mold</h4>
@@ -244,41 +246,186 @@ Feel free to change the height and width values or other styling below: -->
               </div>
             </div>
         </div>
-        <div class="left">
-        After the Apollo missions (1961 - 1972) ended, NASA experienced a significant dip in funding from the United States government. A permanent US space
-        station was planned starting in 1969 but due to the loss of funding, the project transformed into what we now know as the Skylab project. The Skylab
-        project <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="img/sky.jpg" alt=""></div> 
-        is the United State’s first and last independently built space station and was currently at its height in 1973 to 1974, occupying
+    </div>
+
+    <div class="container">
+        <!-- <div class="left"> -->
+          <div><img src="img/skylab.jpg" class="rounded float-left" alt="" style="height: 300px; width:300px; margin-right: 15px; margin-top: 15px; margin-bottom: 5px; "></div>
+      <div > 
+        
+        <p class="left">After the Apollo missions (1961 - 1972) ended, NASA experienced a significant dip in funding from the United States government. A permanent US space
+        station was planned starting in 1969 but due to the loss of funding, the project transformed into what we now know as the Skylab project (shown left). <br>
+        </p>
+        <p class="left"><br>The Skylab project is the United State’s first and last independently built space station and was currently at its height in 1973 to 1974, occupying
         and housing 3 successive crews for a total of 171 days. Unfortunately, the Space Shuttle intended to be used to re-boost Skylab was not prepared 
-        in time to save the station. Skylab burned up in the Earth’s atmosphere in 1979 over the Indian Ocean.
-        </div>
-
-
-
-      <section id="1976 - 1977 , 1986 - 1989 Dr. James C. Fletcher">
-          <!-- 1976 - 1977 , 1986 - 1989 Dr. James C. Fletcher <br> -->
-
-
-          <div class="row justify-content-left no-gutters mb-5 mb-lg-0">  
-            <iframe style='width: 535px; height: 350px;' src='https://voyant-tools.org/tool/Trends/?palette=d3_cat20c&stopList=keywords-648558d7af3a1cf3dff70d4dbe21f217&query=space&query=nasa&query=mars&query=program&query=international&mode=document&corpus=5ef7f9297f177ab9903d56ebcd7197a8'></iframe>
-            <iframe style='width: 535px; height: 350px;' src='https://voyant-tools.org/tool/Cirrus/?palette=d3_cat20c&stopList=keywords-648558d7af3a1cf3dff70d4dbe21f217&whiteList=&visible=225&corpus=5ef7f9297f177ab9903d56ebcd7197a8'></iframe>
-
-          </div>
-
-          <br><br>
-      </section>
-
-<!-- 
-      <section id="1977- 1981 Dr ROBERT A. FROSCH">
-        <p>
-            1977- 1981 Dr ROBERT A. FROSCH<br>
+        in time to save the station. Skylab burned up in the Earth’s atmosphere in 1979 over the Indian Ocean. 
+        </p>
+        <div><img src="img/apollo-soyuz.jpg" class="rounded float-right" alt="" style="height: 300px; width:400px; margin-right: 15px; margin-top: 15px; margin-bottom: 5px; "></div>
+        <p class="left">
+            Before this, bringing in 1972, Another project was also beginning. President Richard M, Nixon and Soviat Premier Alexei Kosygin signed an 
+            agreement on May 24th, 1972. With this agreement, the Apollo-Soyuz Test Project began. It marked the first joint mission between the United 
+            States and Soviat space flight program and was a resounding symbol of the attempts by both superpowers to lessen the tensions between the two. 
+            In July 1975, the two nations watched as 5 men (the american crew shown right) paved the way for future international partnerships by docking two seperate spacecraft. 
+            This was the last Apollo mission flown and officially marked the end of the space race between the Soviets and the US, making way for a more 
+            cooperative future. 
+        </p>
+        <div><img src="img/jamesCfletcher.jpg" class="rounded float-left" alt="" style="height: 300px; width:375px; margin-right: 15px; margin-top: 15px; margin-bottom: 5px; "></div>
+        <p class="left">
+            In this time, Dr. James C Fletcher (seen first left, standing admist the crew of Star Trek's Enterprise) was the director of NASA at the time. Analyzing his speeches lead to a surprising 
+            result that we were not expecting. Fletcher was known for his advocacy of the Space Shuttle program throughout his tenure as Directory, worked to 
+            complete the Viking Program (a program who's intent was to send landers to mars), oversaw the Skylab mission (as mentioned above), approved the Voyager Space 
+            Probes and the Apollo-Soyuz project. He left NASA in 1977 but still was an active advisor to national leaders at the time and played a large role in 
+            planning the future of space policy after the Challenger’s last fatal flight. 
+        </p>
+        <p class="left">
+            Knowing this sheds light on how he spoke to Congress about NASA during his time as Director. When analyzing his speeches, we can see that his 
+            opinions about NASA’s future was different than those of previous directors. A small sideword; We chose to focus on speeches Directors made to 
+            congress on budgets (as the directors are advocating for funds for NASA) and Speeches made directly about NASA’s future and how the Administration 
+            was moving forward. Using voyant, we were able to pull the most common words; Space, Program, Nasa, Mars, International, 
+            technology, cooperation. 
+        </p>    
+        <section id="1976 - 1977 , 1986 - 1989 Dr. James C. Fletcher">
+            <!-- 1976 - 1977 , 1986 - 1989 Dr. James C. Fletcher <br> -->
+            <div class="row justify-content-left no-gutters mb-5 mb-lg-0">  
+              <div class="buffer">
+                <iframe style='width: 535px; height: 350px;' src='https://voyant-tools.org/tool/Trends/?palette=d3_cat20c&stopList=keywords-648558d7af3a1cf3dff70d4dbe21f217&query=space&query=nasa&query=mars&query=program&query=international&mode=document&corpus=5ef7f9297f177ab9903d56ebcd7197a8'></iframe>
+                <iframe style='width: 535px; height: 350px;' src='https://voyant-tools.org/tool/Cirrus/?palette=d3_cat20c&stopList=keywords-648558d7af3a1cf3dff70d4dbe21f217&whiteList=&visible=225&corpus=5ef7f9297f177ab9903d56ebcd7197a8'></iframe>
+              </div>
+            </div>
             
-            <iframe style='width: 600px; height: 350px;' src='https://voyant-tools.org/tool/Trends/?palette=664cd90f02eca7d8e32f6fc9134a4899&stopList=keywords-a481f6b726c4dab1b64f92c5e750e459&query=space&query=program&query=technology&query=fy&query=shuttle&mode=document&corpus=a46578e7e1a29a2cd68beddc2f7276a9'></iframe>
-            <iframe style='width: 1200px; height: 600px;' src='https://voyant-tools.org/tool/Cirrus/?palette=664cd90f02eca7d8e32f6fc9134a4899&stopList=keywords-a481f6b726c4dab1b64f92c5e750e459&whiteList=&corpus=a46578e7e1a29a2cd68beddc2f7276a9'></iframe>
-          
+        </section>
+        <p class="leftLast">    
+            It’s interesting to see how often Fletcher advocated for NASA to become more cooperative with other nations in 
+            his speeches (listed below). Over all, Fletcher advocated for more communication with other superpowers and the programs he ushered and encouraged 
+            into existence show it, especially the Apollo-Soyuz Test Project. Through him, we are better able to see NASA transitioning to a more internationally
+            centered entity, taking its first real steps away from the more military driven mission of space expansion in the past.
+            <br>
+        </p>
+        <div><img src="img/Robert_A._Frosch.jpg" class="rounded float-left" alt="" style="height: 300px; width:225px; margin-right: 15px; margin-top: 15px; margin-bottom: 5px; "></div>
+        <h4 style="margin-top: 20px; margin-bottom: 20px; text-indent: none;"> <u>Dr Robert A. Frosch; 1977-1981</u></h4>
+        <p class="left">
+            Dr Robert A. Frosch took over as Director of NASA after Fletcher stepped down in 1977, serving in the Carter administration. During his tenure at 
+            NASA, he oversaw and implemented Fletcher’s vision of the Space Shuttle program, making it his own. Being a man of science, Dr Frosch was someone 
+            who grew NASA in a more research driven approach, allowing for missions, space shuttle slights, technology and data to take precedence. He oversaw 
+            several key projects during his tenure at Nasa. 
+            <br>
+        </p>
+        <p class="left">
+            The first space shuttle orbiter, <a href="https://www.nasa.gov/feature/40-years-ago-space-shuttle-enterprise-rolls-to-the-pad">Enterprise (OV101)</a>, 
+            named of course after the Enterprise from the popular tv series Star Trek, was first flown on 
+            top of a Boeing 747 ferrying aircraft February 17, 1977. The successful flight proved that the Shuttle could fly attached to the 747. While it was 
+            never destined for space travel, as it was constructed without engines or functional heat shielding, it marked an important achievement for the NASA 
+            community. The Enterprise paved the way for future shuttles to be safer, allowing for NASA to run series of tests on it, including but not limited to 
+            Approach and Landing tests (ALT) and the Mated Vertical Ground Vibration Test (MGVT), so that they could be better able to design future shuttles.
+        </p>
+        <p class="left">
+            Also in 1977 (August 20th, 1977 and September 5th, 1977 to be exact), NASA launched 
+            <a href="https://voyager.jpl.nasa.gov/mission/status/">Voyager 1 and 2</a>, missions that are still continuing to 
+            this day. Due to the budget cuts of the time, Voyager 1, which has been initially planned as “Mariner 11”, was scaled back to simply have a flyby
+            of both Jupiter and Saturn. However, on November 12th, 1980, Voyager 1 would become the third of five artificial objects to achieve escape velocity 
+            required to leave the solar system. Although Voyager 2 was launched before Voyager 1, it took a longer path to Jupiter and Saturn, allowing it to 
+            have encounters with both Uranus and Neptune, marking it as the only spacecraft who had visited both of the ice planets.  It later became the fifth 
+            artificial object to achieve escape velocity, leaving our solar system after Voyager 1. Both crafts still communicate with NASA and are still 
+            collecting data, continuing their voyage of the stars.
         </p>
 
+        <div><img src="img/colombiaFirst.jpg" class="rounded float-right" alt="" style="height: 400px; width:300px; margin-right: 15px; margin-top: 15px; margin-bottom: 5px; "></div>
+        <p class="left">
+            And while he wasn’t in office at the time, Dr Frosch also encouraged the 
+            <a href="https://www.nasa.gov/centers/kennedy/shuttleoperations/orbiters/columbia_info.html">Space Shuttle Columbia mission</a> (April 12th, 1981). 
+            The heaviest of NASA's orbiters, 
+            Columbia weighed too much and lacked the necessary equipment to assist with assembly of the International Space Station. Despite its limitations, the 
+            orbiter's legacy is one of groundbreaking scientific research and notable "firsts" in space flight. It marked a notable change in the Space Shuttle program 
+            and was useful in teaching many firsts to NASA.
+        </p>
+        <p class="left">
+            <a href=”https://www.jpl.nasa.gov/missions/seasat/”>Seasat-A</a> (26 Jun. 1978), one of the earliest Earth-observing satellites desgined to test various 
+            oceanographic sensors and gain a better understanding of Earth’s seas. It opperated for a total of 105 days, measuring sea-surface winds and temperatures, 
+            wave heights, atmospheric liquid water content, sea ice features and ocean topography before a short circuit in the spacecraft;s electrical system ended the 
+            mission. 
+        </p>
+        <p class="left">
+            <a href=”https://eospso.nasa.gov/missions/nimbus-7”>Nimbus 7</a> (24 Oct. 1978), research-and-development satellite was launched and served as a stabilized, 
+            earth-oriented platform for the testing of advanced systems used to sense and collect data in the pollution, oceanographic, and meteorological disciplines.
+        </p>
+        <p class="left">
+            The <a href=”https://heasarc.nasa.gov/docs/heasarc/missions/pvo.html”> Pioneer Venus Orbiter</a> (May 20th, 1978), was a mission whose primary objective was 
+            to investigate the solar wind in the Venusian environment, map Venus' surface through a radar imaging system, and study the characteristics of the upper 
+            atmosphere and ionosphere. The mission lasted a total of 14 years, the last transmission from the orbiter occuring on October 8th, 1992.
+        </p>
+        <p class="left">
+            The <a href="https://heasarc.gsfc.nasa.gov/docs/heasarc/missions/solarmax.html">Solar Maximum Mission</a> (Febuary 14th, 1980), was primarily made to study 
+            the Sun during the high part of the solar cycle. The mission did hit a snag when the satellite malfunctioned and cut the original mission short. SMM was 
+            recovered by the space shuttle Challenger in April of 1984 and serviced while it was in orbit. It lived a productive life until it’s orbit decayed and the 
+            SMM burned up in the Earth’s atmosphere in December 1989.
+        </p>
+        
+        <section id="1977- 1981 Dr ROBERT A. FROSCH">
+            <!-- <br><br><br><br> -->
+              <div class="row justify-content-left no-gutters mb-5 mb-lg-0;">  
+                  <div class="buffer">
+                    <iframe style='width: 535px; height: 350px;' src='https://voyant-tools.org/tool/Trends/?palette=664cd90f02eca7d8e32f6fc9134a4899&stopList=keywords-a481f6b726c4dab1b64f92c5e750e459&query=space&query=program&query=technology&query=fy&query=shuttle&mode=document&corpus=a46578e7e1a29a2cd68beddc2f7276a9'></iframe>
+                    <iframe style='width: 535px; height: 350px;' src='https://voyant-tools.org/tool/Cirrus/?palette=664cd90f02eca7d8e32f6fc9134a4899&stopList=keywords-a481f6b726c4dab1b64f92c5e750e459&whiteList=&corpus=a46578e7e1a29a2cd68beddc2f7276a9'></iframe>
+                  </div>
+              <div>
+                <!-- <p style="margin-bottom: 15px;" class="text-white mb-4"> ___ </p> -->
+                  
       </section>
+      <p class="leftLast">
+          By looking at the analysis of his speeches, we see that the words space (168), program (119), technology (90), Systems (74), data (73), flight (56), 
+          test (46),  appear with the greatest frequency from his selected speeches to congress and those speeches concerning NASA’s future, allowing us to 
+          confirm that he was more invested in the research aspect of what NASA had to offer at the time. Dr. Frosch took the lead from Fletcher and built 
+          NASA in with research in mind and the future of Space ever present in the space shuttle program, further departing from what NASA had originally 
+          been intended to be. Rather than limit themselves  
+          He stepped down from NASA as the Presidential Administration changed, going on to conduct further research throughout his lifetime.
+          
+      </p>
+
+      <h4 style="margin-top: 20px; margin-bottom: 20px; text-indent: none;"> <u>James M Beggs; 1981-1985</u></h4>
+        <p class="left">
+            James M Beggs also has a very similar focus on the technology and research aspect of NASA, however he oversaw a large portion of the Space 
+            Shuttle program. When analysing his speeches, you can see he had a focus on shuttle, research, development, programs , launch and flight. 
+            During Begg’s tenure, the Space Shuttle Columbia experienced its first flight, and in 1982, the space shuttle helped to deploy two commercial 
+            communications satellites. The Space shuttle challenger also flew in April of 1983, launching three new satellites and the first American woman 
+            astronaut, Dr Sally K Ride made it to space aboard the shuttle. Another groundbreaking achievement occurred the challenger again as in August 1983, 
+            Dr Guion S Bluford became the first African American astronaut. In 1984, President Ronald Reagan announced that the United States would be finding 
+            and setting out to build a Space Station within a decade. The American people were becoming more and more used to the idea of Space travel and 
+            during Begg’s time, 23 missions with the 4 space shuttles, Challenger, Discovery, Colombia, Atlantis, were successfully completed. In this part of 
+            NASA’s history, we see a slightly upward trend with the budget even though NASA itself was becoming a more science and technology based entity, which 
+            is an interesting shift from the defunding we saw after the completion of the Apollo program. While the budget did not and probably never will achieve 
+            the same heights that it did during the cold war, this is still a notable change. The American people also seemed to have shifted their opinions 
+            about NASA and what it represented. As the space shuttle program continued, it became a normalized part of American culture, far removed from the 
+            military operations it had once been.  
+
+        </p>
+
+        <p class="left">
+            Ronald Regan and NASA held a competition, Teacher in Space, as a means to inspire students, honor teachers and spur an interest in STEM pursuits 
+            in 1984. Unfortunately, it was destined not to continue. On January 8th 1986, the Space Shuttle Challenger was destroyed and its crew of seven-Francis 
+            R. (Dick) Scobee, Michael J. Smith, Judith A. Resnik, Ronald E. McNair, Ellison S. Onizuka, Gregory B. Jarvis, and Christa McAuliffe-was killed, 
+            during its launch from the Kennedy Space Center about 11:40 a.m. The crewmembers of the Challenger represented a cross-section of the American 
+            population in terms of race, gender, geography, background, and religion. The explosion became one of the most significant events of the 1980s, 
+            as millions around the world saw the accident on television and empathized with any one of the seven crew members killed. William R Graham, the 
+            NASA administrator at the time, having served for less than a year, stepped down as Dr James C. Fletcher returned to NASA to once again become 
+            NASA’s director. Under his leadership, NASA began implementing the next steps the Agency would take moving forward. The loss of life on the 
+            Challenger staggered the American people, but none more so than Christa McAuliffe, the teacher who had been selected to accompany the crew. NASA 
+            had had accidents prior to this one but this crash was the first time a civilian had been killed at NASA. Due to this, Fletcher invested heavily in 
+            restructuring the organization's management system, making it safer and more efficient. He also oversaw a complete reworking of the shuttle’s 
+            components itself. The Space Shuttle Program would continue but only after intensive restructuring.     
+        </p>
+
+
+
+      </div>
+
+        
+
+    
+
+      
+
+<!-- 
+
 
 
       <section id="1981 - 1985 James M Beggs">
@@ -292,13 +439,14 @@ Feel free to change the height and width values or other styling below: -->
       
 
       <section id="1985 - 1986 Dr. William R. Graham">
-        <p>
+        
             1985 - 1986 Dr. William R. Graham <br>
+        <div class="row justify-content-left no-gutters mb-5 mb-lg-0">
             <iframe style='width: 600px; height: 350px;' src='https://voyant-tools.org/tool/Trends/?palette=664cd90f02eca7d8e32f6fc9134a4899&stopList=keywords-c37f4412d2114046982cf7fc215005eb&query=space&query=technology&query=program&query=research&query=station&mode=document&corpus=13e60d75e83a824d040bded250a00e73'></iframe>
          
             <iframe style='width: 1200px; height: 600px;' src='https://voyant-tools.org/tool/Cirrus/?palette=664cd90f02eca7d8e32f6fc9134a4899&stopList=keywords-c37f4412d2114046982cf7fc215005eb&whiteList=&visible=125&corpus=13e60d75e83a824d040bded250a00e73'></iframe>
-            
-          </p>
+        <div>
+        
       </section>
       
       
@@ -323,23 +471,12 @@ Feel free to change the height and width values or other styling below: -->
             </p>
       </section> -->
 
-      <section id="All together">
-        
-          
-            
-          
+      <!-- <section id="All together">
               <div class="row justify-content-left no-gutters mb-5 mb-lg-0">
-                <!-- <div style="border: thin solid rgb(172, 165, 165); margin: 0pt 0pt 0px 0px; float: left;"> -->
                   <iframe style='width: 535px; height: 350px; float: left;' src='https://voyant-tools.org/tool/Trends/?palette=d3_cat20c&stopList=keywords-82fc52e05785c54ac8bf1b6f9686adbc&query=space&query=nasa&query=program&query=technology&query=fy&mode=document&corpus=5993983af5e6462df1dd8b8c315d8099'></iframe>
                   <iframe style='width: 535px; height: 350px; float: right;' src='https://voyant-tools.org/tool/Cirrus/?palette=d3_cat20c&stopList=keywords-82fc52e05785c54ac8bf1b6f9686adbc&whiteList=&visible=25&corpus=5993983af5e6462df1dd8b8c315d8099'></iframe>
-         
-                <!-- </div> -->
               </div>
-              
-            
-        
-        
-      </section>    
+      </section>     -->
 
     </div> <!-- End container-->
       
@@ -366,7 +503,7 @@ Feel free to change the height and width values or other styling below: -->
               <!-- /Title Card -->
 
 
-          <!-- <div class="row justify-content-center no-gutters">
+          <div class="row justify-content-center no-gutters">
             <div class="col-lg-6"> <img class="img-fluid" src="img/demo-image-02.jpg" alt=""></div>
             <div class="col-lg-6 order-lg-first">
               <div class="bg-black text-center h-100 project">
@@ -389,8 +526,8 @@ Feel free to change the height and width values or other styling below: -->
               </div>
             </div>
           </div>
-        </div>
-     -->
+        <!-- </div> -->
+    
       </div> <!--End container-->
   </section>
  
