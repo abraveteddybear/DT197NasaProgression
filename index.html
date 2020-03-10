@@ -1,15 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <script src="jquery.js"> </script>
-    <script>
-      $(function includeIntro(){
-        $("#includedContent").load("intro.html", function() {
-          alert("Load Was Preformed");
-        })
-      });
-    </script>
-
+    <style>
+        .left { text-align: left; text-indent: 40px; font-size: 20px;}
+        .leftLast { text-align: left; text-indent: 40px; font-size: 20px; margin-bottom: 100px;}
+        .buffer {margin-bottom: 15px; margin-top: 15px;}
+      </style>
 <head>
 
 
@@ -35,7 +31,7 @@
 <!--background: url("../img/6.jpg");-->
 <body id="page-top">
 
-  <!-- Navigation -->
+  <!-- Navigation //////////////////////////////////////////////////////////////////////////////////////////////////////-->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">Nasa Eras</a>
@@ -48,14 +44,6 @@
           <li class="nav-item">
             <!-- Introduction -->
             <a class="nav-link js-scroll-trigger" href="#introduction">Introduction</a>
-            
-            <!-- HERE MAN HERE-->
-            <!-- <ul class="sub-menu">
-                <li class="text-black-65 mb-0">H</li>
-                <li>E</li>
-                <li>L</li>
-            </ui> -->
-            <!-- /HERE MAN HERE-->
           </li>
 
           <li class="nav-item">
@@ -79,7 +67,7 @@
     </div>
   </nav>
 
-  <!-- Header -->
+  <!-- Header //////////////////////////////////////////////////////////////////////////////////////////////////////////-->
   <header class="masthead">
     <div class="container d-flex h-100 align-items-center">
       <div class="mx-auto text-center">
@@ -91,7 +79,7 @@
     </div>
   </header>
 
-  <!-- Introduction Section -->
+  <!-- Introduction Section //////////////////////////////////////////////////////////////////////////////////////////////////////////-->
   <section id="introduction" class="about-section text-lg-left">
     
     <div class="container">
@@ -150,8 +138,9 @@
 
 
   </section>
+  <!-- /Intro -->
 
-  <!-- ERA1 Section -->
+  <!-- ERA1 Section //////////////////////////////////////////////////////////////////////////////////////////////////////////-->
   <section id="ERA1" class="projects-section bg-light">
     <div class="container">
 
@@ -168,37 +157,48 @@
       </div>
       <!-- /Title Card -->
 
-
-      <p class="text-black-65 mb-0">
-          <!--
-            Put all your text here in this paragraph! 
-            <br> is a break in the text
-            <b>Any text inside of these will be bolded </b>
-            If your text is winthin the < !-- These guys -- >, it is a comment in HTML and will not show up 
-          -->
-          In 1958 the legislation which would see to the creation of NASA was passed through Congress just over a decade after the Cold War began. President Dwight D. Eisenhower, in the midst of a cold war with the USSR or Soviet Union, created the National Aeronautics and Space Administration to keep the Arms Race and the Space Race as separated as possible. The idea at the time was that a military led race to space would only escalate the cold war further.
-      
+      <div class="container">
+        <p class="left">
+            In 1958 the legislation which would see to the creation of NASA was passed through Congress just over a decade after the Cold War began. 
+            President Dwight D. Eisenhower, in the midst of a cold war with the USSR or Soviet Union, created the National Aeronautics and Space Administration 
+            to keep the Arms Race and the Space Race as separated as possible. The idea at the time was that a military led race to space would only escalate 
+            the cold war further.
+        
         </p>
-      <p></p>
-      <p class="text-black-65 mb-0"> <iframe style='width: 1000px; height: 630px;' src='https://voyant-tools.org/tool/Cirrus/?view=Cirrus&corpus=1da3d0889e98d6c315c7ccc5a01cc124'></iframe> </p>
-      <p>America was the symbol for western technology and power, NASA as an extension was the, nonmilitary, spearhead for research with the US as its driving force as it plunged into space. The world was a melting pot for all sorts of propaganda and America was not saved from that, the effects NASA’s progress had on American moral can not be understated. There is no doubt that Sputnik I was a huge hit to take but with the launch of Explorer 1 by the Americans it put the game on a more equal playing field. The next huge milestone was the first man to space, the Soviets were the first to do it but only a few days after NASA sent astronaut Alan Shepard into space for just over nine days in May 1961, NASA caught up to the Soviets in a few days when it took the military three months between Sputnik and Explorer. This shows the change NASA had to the Space Race. America ended the decade in second place but started the 60’s in a tie with the stakes getting higher and the goals reaching new heights. May 1961, President John F. Kennedy announces the Apollo Project which plans to put an American man on the Moon due to the urgent needs of the nation. The Gemini missions pave the way for the Apollo missions with the first EVA or spacewalk by an American in June 1965 by Edward H. White II. This paired with the monumental landing on the Moon in July 1969 and subsequent moon landings afterwards by American crews launched America into the lead in the Space Race which was now very much in the Western Bloc’s favor. NASA’s creation and involvement shifted the Space Race into the Americans’ favor, NASA was the symbol of American technology and with every achievement the power of the Eastern Bloc faded. Those wanting to learn about the technological might of the United States need look no further than the, then mind bending, goals they had managed to reach.
+        <p class="left">America was the symbol for western technology and power, NASA as an extension was the, nonmilitary, spearhead for research with the US as 
+          its driving force as it plunged into space. The world was a melting pot for all sorts of propaganda and America was not saved from that, the effects 
+          NASA’s progress had on American moral can not be understated. There is no doubt that Sputnik I was a huge hit to take but with the launch of Explorer 
+          1 by the Americans it put the game on a more equal playing field. 
+        </p>  
+        <p class="left">The next huge milestone was the first man to space, the Soviets were the first to do 
+          it but only a few days after NASA sent astronaut Alan Shepard into space for just over nine days in May 1961, NASA caught up to the Soviets in a few 
+          days when it took the military three months between Sputnik and Explorer. This shows the change NASA had to the Space Race. America ended the decade 
+          in second place but started the 60’s in a tie with the stakes getting higher and the goals reaching new heights. May 1961, President John F. Kennedy 
+          announces the Apollo Project which plans to put an American man on the Moon due to the urgent needs of the nation. 
+        </p>  
+        <p class="left">The Gemini missions pave the way for 
+          the Apollo missions with the first EVA or spacewalk by an American in June 1965 by Edward H. White II. This paired with the monumental landing on the 
+          Moon in July 1969 and subsequent moon landings afterwards by American crews launched America into the lead in the Space Race which was now very much in 
+          the Western Bloc’s favor. NASA’s creation and involvement shifted the Space Race into the Americans’ favor, NASA was the symbol of American technology 
+          and with every achievement the power of the Eastern Bloc faded. Those wanting to learn about the technological might of the United States need look no 
+          further than the, then mind bending, goals they had managed to reach.
         </p>
-      <p>After this American victory in space there was a cooling of heads around the world. The DoomsDay clock moved further from midnight and the collaboration between the Soviet space program and NASA began. The first cooperation was the Apollo-Soyuz Test Project in July 1975 which was used to test the compatibility of working in space and the two docking systems which went on to be a success and marked the end of the Space Race with America the victor. It is apparent that NASA’s cooperation with the Soviet space program is the demonstration of lowered tensions which would be a direct translation from America’s view and how those inside and outside could view the state of the nation and the Cold War which would go on to official be called to an end by the dissolving of the Soviet Union in 1991.    </p>
-      <p><br></p>
-     
-      <!--	Exported from Voyant Tools (voyant-tools.org).
-The iframe src attribute below uses a relative protocol to better function with both
-http and https sites, but if you're embedding this into a local web page (file protocol)
-you should add an explicit protocol (https if you're using voyant-tools.org, otherwise
-it depends on this server.
-Feel free to change the height and width values or other styling below: -->
-
+        <p class="leftLast">After this American victory in space there was a cooling of heads around the world. The DoomsDay clock moved further from midnight 
+          and the collaboration between the Soviet space program and NASA began. The first cooperation was the Apollo-Soyuz Test Project in July 1975 which was 
+          used to test the compatibility of working in space and the two docking systems which went on to be a success and marked the end of the Space Race with 
+          America the victor. It is apparent that NASA’s cooperation with the Soviet space program is the demonstration of lowered tensions which would be a direct 
+          translation from America’s view and how those inside and outside could view the state of the nation and the Cold War which would go on to official be 
+          called to an end by the dissolving of the Soviet Union in 1991.    
+        </p>
+        
+    </div>
 
       <!--Moon Rover Object Guy!!!!!-->
       <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div class="col-lg-6">
             <!--<img class="img-fluid" src="img/demo-image-01.jpg" alt=""> -->
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/az9nFrnCK60" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/az9nFrnCK60" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/az9nFrnCK60?start=7" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <div class="col-lg-6">
             <div class="bg-black text-center h-100 project">
@@ -215,7 +215,7 @@ Feel free to change the height and width values or other styling below: -->
               </div>
             </div>
           </div>
-        </div>
+      </div>
         <!--End of the Moon Rover Object-->
 
 	<p class="text-black-65 mb-0"> <!--Okay, so this is a commment-->
@@ -228,14 +228,10 @@ Feel free to change the height and width values or other styling below: -->
   </section>
   <!--/ERA1 Section-->
 
- <!-- 1970s - 1980s-->
+  <!-- ERA2 Section //////////////////////////////////////////////////////////////////////////////////////////////////////////-->
   <section id="ERA2" class="projects-section bg-light">
       <!-- Project One Row -->
-      <style>
-        .left { text-align: left; text-indent: 40px; font-size: 20px;}
-        .leftLast { text-align: left; text-indent: 40px; font-size: 20px; margin-bottom: 100px;}
-        .buffer {margin-bottom: 15px; margin-top: 15px;}
-      </style>
+
     <div class="container"> <!-- End container-->
         <div class="row align-items-center no-gutters mb-4 mb-lg-5">
             <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="img/5main_columbia1979.jpg" alt="" style="height: 500px; width: 800px;"></div>
@@ -361,15 +357,12 @@ Feel free to change the height and width values or other styling below: -->
         </p>
         
         <section id="1977- 1981 Dr ROBERT A. FROSCH">
-            <!-- <br><br><br><br> -->
               <div class="row justify-content-left no-gutters mb-5 mb-lg-0;">  
                   <div class="buffer">
                     <iframe style='width: 535px; height: 350px;' src='https://voyant-tools.org/tool/Trends/?palette=664cd90f02eca7d8e32f6fc9134a4899&stopList=keywords-a481f6b726c4dab1b64f92c5e750e459&query=space&query=program&query=technology&query=fy&query=shuttle&mode=document&corpus=a46578e7e1a29a2cd68beddc2f7276a9'></iframe>
                     <iframe style='width: 535px; height: 350px;' src='https://voyant-tools.org/tool/Cirrus/?palette=664cd90f02eca7d8e32f6fc9134a4899&stopList=keywords-a481f6b726c4dab1b64f92c5e750e459&whiteList=&corpus=a46578e7e1a29a2cd68beddc2f7276a9'></iframe>
                   </div>
               <div>
-                <!-- <p style="margin-bottom: 15px;" class="text-white mb-4"> ___ </p> -->
-                  
       </section>
       <p class="leftLast">
           By looking at the analysis of his speeches, we see that the words space (168), program (119), technology (90), Systems (74), data (73), flight (56), 
@@ -386,9 +379,14 @@ Feel free to change the height and width values or other styling below: -->
             James M Beggs also has a very similar focus on the technology and research aspect of NASA, however he oversaw a large portion of the Space 
             Shuttle program. When analysing his speeches, you can see he had a focus on shuttle, research, development, programs , launch and flight. 
             During Begg’s tenure, the Space Shuttle Columbia experienced its first flight, and in 1982, the space shuttle helped to deploy two commercial 
-            communications satellites. The Space shuttle challenger also flew in April of 1983, launching three new satellites and the first American woman 
-            astronaut, Dr Sally K Ride made it to space aboard the shuttle. Another groundbreaking achievement occurred the challenger again as in August 1983, 
-            Dr Guion S Bluford became the first African American astronaut. In 1984, President Ronald Reagan announced that the United States would be finding 
+            communications satellites. The Space Shuttle Challenger also flew in April of 1983, launching three new satellites and the first American woman 
+            astronaut, <a href="https://www.nasa.gov/feature/sally-ride-first-american-woman-in-space">Dr Sally K Ride</a> 
+            made it to space aboard the shuttle. Another groundbreaking achievement occurred the challenger again as in August 1983, 
+            <a href="https://www.nasa.gov/vision/space/workinginspace/bluford_1st_african_amer.html">Dr Guion S Bluford </a>
+            became the first African American astronaut. 
+        </p>
+        <p class="left">
+            In 1984, President Ronald Reagan announced that the United States would be finding 
             and setting out to build a Space Station within a decade. The American people were becoming more and more used to the idea of Space travel and 
             during Begg’s time, 23 missions with the 4 space shuttles, Challenger, Discovery, Colombia, Atlantis, were successfully completed. In this part of 
             NASA’s history, we see a slightly upward trend with the budget even though NASA itself was becoming a more science and technology based entity, which 
@@ -398,10 +396,11 @@ Feel free to change the height and width values or other styling below: -->
             military operations it had once been.  
 
         </p>
-
+        <h4 style="margin-top: 20px; margin-bottom: 20px; text-indent: none;"> <u>Space Shuttle Challenger Disaster</u></h4>
         <p class="left">
             Ronald Regan and NASA held a competition, Teacher in Space, as a means to inspire students, honor teachers and spur an interest in STEM pursuits 
-            in 1984. Unfortunately, it was destined not to continue. On January 8th 1986, the Space Shuttle Challenger was destroyed and its crew of seven-Francis 
+            in 1984. Unfortunately, it was destined not to continue. On January 8th 1986, the 
+            <a ref="https://www.nasa.gov/multimedia/imagegallery/image_gallery_2437.html">Space Shuttle Challenger</a>was destroyed and its crew of seven-Francis 
             R. (Dick) Scobee, Michael J. Smith, Judith A. Resnik, Ronald E. McNair, Ellison S. Onizuka, Gregory B. Jarvis, and Christa McAuliffe-was killed, 
             during its launch from the Kennedy Space Center about 11:40 a.m. The crewmembers of the Challenger represented a cross-section of the American 
             population in terms of race, gender, geography, background, and religion. The explosion became one of the most significant events of the 1980s, 
@@ -482,11 +481,11 @@ Feel free to change the height and width values or other styling below: -->
       
     
   </section>
-  <!-- /1970s - 1980s-->
+  <!-- /ERA2-->
 
 
 
-     <!-- Project Two Row --> 
+  <!-- ERA3 Section ////////////////////////////////////////////////////////////////////////////////////////////////////////// --> 
   <section id="ERA3" class="projects-section bg-light">
         
       <div class="container">
@@ -503,34 +502,13 @@ Feel free to change the height and width values or other styling below: -->
               <!-- /Title Card -->
 
 
-          <div class="row justify-content-center no-gutters">
-            <div class="col-lg-6"> <img class="img-fluid" src="img/demo-image-02.jpg" alt=""></div>
-            <div class="col-lg-6 order-lg-first">
-              <div class="bg-black text-center h-100 project">
-                <div class="d-flex h-100">
-                  <div class="project-text w-100 my-auto text-center text-lg-right">
-                    <h4 class="text-white">Mountains</h4>
-                    <p class="mb-0 text-white-50">Tomorrow, and tomorrow, and tomorrow,
-                        Creeps in this petty pace from day to day,
-                        To the last syllable of recorded time;
-                        And all our yesterdays have lighted fools
-                        The way to dusty death. Out, out, brief candle!
-                        Life's but a walking shadow, a poor player,
-                        That struts and frets his hour upon the stage,
-                        And then is heard no more. It is a tale
-                        Told by an idiot, full of sound and fury,
-                        Signifying nothing.</p>
-                    <hr class="d-none d-lg-block mb-0 mr-0">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+
+
         <!-- </div> -->
     
       </div> <!--End container-->
   </section>
- 
+  <!-- /ERA3 -->
 
 
 
@@ -546,4 +524,31 @@ Feel free to change the height and width values or other styling below: -->
 
 </body>
 
-</html>
+<!-- <div class="row justify-content-center no-gutters">
+    <div class="col-lg-6"> <img class="img-fluid" src="img/demo-image-02.jpg" alt=""></div>
+    <div class="col-lg-6 order-lg-first">
+      <div class="bg-black text-center h-100 project">
+        <div class="d-flex h-100">
+          <div class="project-text w-100 my-auto text-center text-lg-right">
+            <h4 class="text-white">Mountains</h4>
+            <p class="mb-0 text-white-50">Tomorrow, and tomorrow, and tomorrow,
+                Creeps in this petty pace from day to day,
+                To the last syllable of recorded time;
+                And all our yesterdays have lighted fools
+                The way to dusty death. Out, out, brief candle!
+                Life's but a walking shadow, a poor player,
+                That struts and frets his hour upon the stage,
+                And then is heard no more. It is a tale
+                Told by an idiot, full of sound and fury,
+                Signifying nothing.</p>
+            <hr class="d-none d-lg-block mb-0 mr-0">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ -->
+
+ </html>
+
+
