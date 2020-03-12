@@ -6,3 +6,5 @@ Apollo soyuz:
 https://www.nasa.gov/image-feature/expedition-60-crewmembers-in-front-of-a-mural-of-the-1975-apollo-soyuz-mission
 James C Fletcher
 https://www.nasa.gov/multimedia/imagegallery/image_feature_1204.html
+Explorer1
+https://www.nasa.gov/directorates/heo/scan/images/history/January1958.html
